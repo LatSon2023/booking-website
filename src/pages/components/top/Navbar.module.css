@@ -1,0 +1,46 @@
+.wrap-nav {
+    background-color: #003580;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 1200px;
+}
+
+.options {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.options span {
+    padding: 16px 0;
+    display: inline-block;
+}
+
+.button {
+    float: right;
+}
+
+.button::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button button {
+    margin: 8px;
+    padding: 4px 8px;
+    color:#003580;
+}
+
+.button button:hover {
+    cursor: pointer;
+}
+
+.list-option {
+    display: flex;
+    padding: 0 0 15px 20px;
+}

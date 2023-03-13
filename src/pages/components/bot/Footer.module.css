@@ -1,0 +1,28 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.more-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-options {
+    display: flex;
+}
+
+.list li a {
+    font-size: 14px;
+    color:#05178bcb;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.list li a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 40px 0;
+    width: 1200px;
+    display: flex;
+}
+
+.left {
+    width: 20%;
+    margin: 0 10px;
+}
+
+.right {
+    margin: 0 10px;
+    width: 80%;
+}

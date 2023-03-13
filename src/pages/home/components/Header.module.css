@@ -1,0 +1,82 @@
+.wrap-header {
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 40px 20px 80px;
+    color: #fff;
+    position: relative;
+    width: 1200px;
+}
+
+.header h1 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header p {
+    padding-bottom: 15px;
+}
+
+.header button {
+    padding: 8px;
+}
+
+.form {
+    position: absolute;
+    bottom: -20px;
+    background-color: #fff;
+    border: 3px solid #febb02;
+    border-radius: 3px;
+    width: 90%;
+    padding: 5px 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form i {
+    color: #ccc;
+}
+
+.form button {
+    position: absolute;
+    right: 30px;
+    top: 6px;
+}
+
+.form div {
+    display: inline-block;
+    width: 25%;
+}
+
+.form input {
+    width: 85%;
+    border:none;
+    padding: 10px;
+}
+
+.form div:nth-child(2) {
+    margin: 0 100px;
+}
+
+.button {
+    background-color: #0071c2;
+    border: none;
+    color: #fff;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #005199;
+}
+
+.divDate {
+    position: relative;
+}
+
+.date {
+    position: absolute;
+}
